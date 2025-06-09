@@ -1,4 +1,4 @@
-# Kişisel Web Sayfam <br> <br>
+# Kişisel Web Sayfam <br> 
 
 *Bu proje, kendimi tanıttığım ve portföyümü paylaştığım basit bir kişisel web sitesidir.  
 HTML, CSS, Bootstrap ve Javascript kullanılarak hazırlandı.* <br> <br>
