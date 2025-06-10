@@ -122,29 +122,6 @@ function initScrollAnimations() {
     });
 }
 
-// ===== SKILL BARS ANIMATION =====
-function initSkillBars() {
-    const skillBars = document.querySelectorAll('.progress-bar');
-
-    const skillObserver = new IntersectionObserver(function (entries) {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                const progressBar = entry.target;
-                const width = progressBar.getAttribute('data-width');
-
-                setTimeout(() => {
-                    progressBar.style.width = width + '%';
-                }, 200);
-
-                skillObserver.unobserve(progressBar);
-            }
-        });
-    }, { threshold: 0.5 });
-
-    skillBars.forEach(bar => {
-        skillObserver.observe(bar);
-    });
-}
 
 // ===== SMOOTH SCROLLING =====
 function initSmoothScrolling() {
@@ -243,22 +220,6 @@ document.addEventListener('click', function (e) {
     }
 });
 
-// ===== THEME TOGGLE (Optional) =====
-function toggleTheme() {
-    document.body.classList.toggle('dark-theme');
-
-    // Save preference
-    const isDark = document.body.classList.contains('dark-theme');
-    localStorage.setItem('darkTheme', isDark);
-}
-
-// Load theme preference
-document.addEventListener('DOMContentLoaded', function () {
-    const savedTheme = localStorage.getItem('darkTheme');
-    if (savedTheme === 'true') {
-        document.body.classList.add('dark-theme');
-    }
-});
 
 // ===== CUSTOM CSS ANIMATIONS =====
 const style = document.createElement('style');

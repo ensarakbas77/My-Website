@@ -60,7 +60,6 @@
                         </h2>
                         <p class="hero-description mb-4 fade-in-delay-3">
                             Yazılım geliştirme tutkusu olan, sürekli öğrenmeye açık bir developer.
-                            Modern teknolojilerle kullanıcı dostu uygulamalar geliştiriyorum.
                         </p>
                         <div class="hero-buttons fade-in-delay-4">
                             <a href="#projects" class="btn btn-primary btn-lg me-3">
@@ -91,8 +90,11 @@
                                 <pre class="code-snippet">
 <span class="code-keyword">const</span> <span class="code-variable">developer</span> = {
   <span class="code-property">name</span>: <span class="code-string">'Ensar Akbaş'</span>,
+    <span class="code-property">role</span>: <span class="code-string">'3rd Year Information System Engineering Student'</span>,
+      <span class="code-property">location</span>: <span class="code-string">'Kocaeli'</span>,
   <span class="code-property">passion</span>: <span class="code-string">'Coding'</span>,
-  <span class="code-property">status</span>: <span class="code-string">'Learning'</span>
+  <span class="code-property">status</span>: <span class="code-string">'Learning'</span>,
+  <span class="code-property">interests</span>: <span class="code-string">['AI, Data Science, Software Development']</span>
 };
                 </pre>
                             </div>
@@ -120,9 +122,13 @@
                             <div class="about-content">
                                 <h3 class="mb-3">Yazılım Geliştirici Adayı</h3>
                                 <p class="text-muted mb-4">
-                                    Merhaba! Ben Ensar Akbaş, yazılım geliştirme alanında kendimi sürekli geliştiren,
-                                    yeni teknolojileri öğrenmeye tutkulu bir developer adayıyım. Kod yazmanın bir sanat
-                                    olduğuna inanıyor ve her projede kaliteli, temiz kod üretmeye odaklanıyorum...
+                                    Merhaba! Ben Ensar Akbaş, Kocaeli Üniversitesi Bilişim Sistemleri Mühendisliği 3.
+                                    sınıf öğrencisiyim. Yazılım geliştirme alanında kendimi sürekli geliştiren ve yeni
+                                    teknolojilere tutkuyla ilgi duyan bir geliştirici adayıyım. Özellikle yapay zeka
+                                    gibi yenilikçi teknolojilere büyük ilgi duyuyor, projelerde hem öğrenmekten hem de
+                                    üretmekten büyük keyif alıyorum. Sektörde deneyim kazanarak bilgi birikimimi
+                                    derinleştirmeyi ve öğrendiklerimi yaratıcı çözümler üretmek için kullanmayı
+                                    hedefliyorum.
                                 </p>
 
                             </div>
@@ -135,8 +141,8 @@
                                     </div>
                                     <div class="feature-content">
                                         <h5>Yaratıcı Çözümler</h5>
-                                        <p class="text-muted mb-0">Kompleks problemlere basit ve etkili çözümler
-                                            üretmeyi seviyorum.</p>
+                                        <p class="text-muted mb-0">Karşılaştığım problemleri basit ve etkili yöntemlerle
+                                            çözmeyi seviyorum.</p>
                                     </div>
                                 </div>
                                 <div class="feature-item d-flex mb-4">
@@ -184,9 +190,6 @@
                         <div class="tech-icon" data-tech="JavaScript">
                             <i class="bi bi-filetype-js"></i>
                         </div>
-                        <div class="tech-icon" data-tech="Bootstrap">
-                            <i class="bi bi-bootstrap"></i>
-                        </div>
                         <div class="tech-icon" data-tech="Python">
                             <i class="bi bi-filetype-py"></i>
                         </div>
@@ -219,28 +222,120 @@
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="project-card">
                         <div class="project-image">
+                            <div style="display: flex; justify-content: center; margin-top: 25px;">
+                                <img src="assets/aws.png" alt="" width="200px" height="150px">
+                            </div>
                             <div class="project-overlay">
                                 <div class="project-links">
-                                    <a href="#" class="project-link" title="Canlı Demo">
-                                        <i class="bi bi-eye"></i>
-                                    </a>
-                                    <a href="#" class="project-link" title="GitHub">
+                                    <a href="https://github.com/ensarakbas77/Stock-Tracking-System-Website"
+                                        target="_blank" class="project-link" title="GitHub">
                                         <i class="bi bi-github"></i>
                                     </a>
                                 </div>
                             </div>
                         </div>
                         <div class="project-content">
-                            <h5 class="project-title">E-Ticaret Web Sitesi</h5>
+                            <h5 class="project-title">Stok Takip Web Sitesi</h5>
                             <p class="project-description">
-                                Modern ve responsive e-ticaret sitesi. HTML, CSS, JavaScript ve Bootstrap kullanılarak
-                                geliştirildi.
+                                Bu proje, kullanıcıların malzeme stoklarını çevrim içi olarak takip edebilecekleri basit
+                                ve işlevsel bir
+                                stok takip sistemidir.
                             </p>
                             <div class="project-tech">
                                 <span class="tech-tag">HTML</span>
                                 <span class="tech-tag">CSS</span>
                                 <span class="tech-tag">JavaScript</span>
                                 <span class="tech-tag">Bootstrap</span>
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">AWS RDS (MySQL)</span>
+                                <span class="tech-tag">AWS EC2</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div style="display: flex; justify-content: center; margin-top: 20px;">
+                                <img src="assets/Docker.png" alt="" style="margin-top: 50px;">
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/ensarakbas77/Traffic-Sign-FastAPI" target="_blank"
+                                        class="project-link" title="GitHub">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h5 class="project-title">Trafik İşareti Sınıflandırıcı</h5>
+                            <p class="project-description">
+                                Eğittiğim trafik işareti tanıma modelini üretim ortamına taşıdım. Modeli
+                                FastAPI ile bir web servisine dönüştürerek Docker konteyner içinde paketledim. Bu
+                                sayede, modeli kolayca dağıtılabilir ve ölçeklenebilir hale getirdim.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">FastAPI</span>
+                                <span class="tech-tag">Docker</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div style="display: flex; justify-content: center; margin-top: 20px;">
+                                <img src="assets/traffic.png" alt="" width="150px" height="150px">
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/ensarakbas77/Traffic-Sign-Recognition"
+                                        class="project-link" target="_blank" title="GitHub">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h5 class="project-title">Trafik İşaretlerini Tanıma</h5>
+                            <p class="project-description">
+                                Bu projede, Kaggle'daki hazır bir veri setini kullanarak trafik işaretlerini
+                                sınıflandırdım. Derin öğrenme yöntemleriyle farklı trafik levhalarını tanımlayan bir
+                                model geliştirdim ve başarılı sonuçlar elde ettim.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Tensorflow</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div style="display: flex; justify-content: center; margin-top: 20px;">
+                                <img src="assets/Premier.png" alt="" style="margin-top: 35px;">
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/ensarakbas77/Preparing-a-Dataset-with-Web-Scraping"
+                                        target="_blank" class="project-link" title="GitHub">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h5 class="project-title">Maç Sonucu Tahmini İçin Veri Seti Hazırlama</h5>
+                            <p class="project-description">
+                                Veriler Maçkolik sitesinden web scraping ile çekildi. Veri setinde Liverpool, Man.
+                                City, Man. United, Arsenal, Chelsea ve Tottenham olmak üzere 6 takım yer alıyor.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Selenium</span>
                             </div>
                         </div>
                     </div>
@@ -250,9 +345,6 @@
                         <div class="project-image">
                             <div class="project-overlay">
                                 <div class="project-links">
-                                    <a href="#" class="project-link" title="Canlı Demo">
-                                        <i class="bi bi-eye"></i>
-                                    </a>
                                     <a href="#" class="project-link" title="GitHub">
                                         <i class="bi bi-github"></i>
                                     </a>
@@ -260,15 +352,12 @@
                             </div>
                         </div>
                         <div class="project-content">
-                            <h5 class="project-title">Todo Uygulaması</h5>
+                            <h5 class="project-title">Maç Sonucu Tahmin Modeli</h5>
                             <p class="project-description">
-                                Kullanıcı dostu arayüze sahip, görev yönetimi için geliştirilmiş interaktif todo
-                                uygulaması.
+                                Yakında...
                             </p>
                             <div class="project-tech">
-                                <span class="tech-tag">JavaScript</span>
-                                <span class="tech-tag">Local Storage</span>
-                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">Python</span>
                             </div>
                         </div>
                     </div>
@@ -276,26 +365,29 @@
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="project-card">
                         <div class="project-image">
+                            <div style="display: flex; justify-content: center; margin-top: 20px;">
+                                <img src="assets/pektus.jpeg" alt="" width="250px" height="170px">
+                            </div>
                             <div class="project-overlay">
                                 <div class="project-links">
-                                    <a href="#" class="project-link" title="Canlı Demo">
-                                        <i class="bi bi-eye"></i>
-                                    </a>
-                                    <a href="#" class="project-link" title="GitHub">
+                                    <a href="https://github.com/ensarakbas77/Transformer-Model-Training" target="_blank"
+                                        class="project-link" title="GitHub">
                                         <i class="bi bi-github"></i>
                                     </a>
                                 </div>
                             </div>
                         </div>
                         <div class="project-content">
-                            <h5 class="project-title">Hava Durumu Uygulaması</h5>
+                            <h5 class="project-title">Duruş Bozukluğu Tespiti İçin Model Eğitimi</h5>
                             <p class="project-description">
-                                API entegrasyonu ile gerçek zamanlı hava durumu bilgilerini gösteren web uygulaması.
+                                Duruş bozukluklarını tespit etmek amacıyla beş sınıflı bir sınıflandırma
+                                problemi üzerinde çalıştık. Veri setinde şu hastalıklar yer almaktadır:
+                                Pektus Karinatum, Pektus Ekskavatum, Poland
+                                Sendromu, Skolyoz ve Kifoz.
                             </p>
                             <div class="project-tech">
-                                <span class="tech-tag">JavaScript</span>
-                                <span class="tech-tag">API</span>
-                                <span class="tech-tag">JSON</span>
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Tensorflow</span>
                             </div>
                         </div>
 
@@ -327,7 +419,7 @@
                                 </div>
                                 <h5>E-mail</h5>
                                 <p class="text-light">
-                                    <a href="mailto:ensarakbas77@example.com" class="text-light text-decoration-none">
+                                    <a href="mailto:ensarr.akbas@gmail.com" class="text-light text-decoration-none">
                                         ensarr.akbas@gmail.com
                                     </a>
                                 </p>
